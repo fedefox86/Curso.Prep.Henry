@@ -165,7 +165,8 @@ function redondearHaciaArriba(num) {
 function numeroRandom(num) {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return math.random(num);
+  return Math.random(num);
+  
 }
 
 function esPositivo(numero) {
@@ -177,10 +178,10 @@ function esPositivo(numero) {
       return false;
     }
     else if (numero>0){
-      return "es positivo";
+      return "Es positivo";
     }
     else { 
-      return "es negativo";
+      return "Es negativo";
   }
 }
 
@@ -232,7 +233,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro +1.2; 
+  return euro *1.2; 
 }
 
 
